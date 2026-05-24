@@ -1,0 +1,110 @@
+/* Songwriter */
+
+.sw-sidebar { padding: 16px; }
+
+.sw-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 14px;
+}
+.sw-header h2 { margin: 0; font-size: 1.1em; }
+
+.sw-actions {
+	display: flex;
+	gap: 6px;
+	margin-bottom: 14px;
+}
+
+.sw-filters {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
+	margin-bottom: 14px;
+}
+
+.sw-filter-btn {
+	padding: 3px 10px;
+	border-radius: 20px;
+	border: 1px solid var(--background-modifier-border);
+	background: var(--background-secondary);
+	color: var(--text-muted);
+	font-size: 0.82em;
+	cursor: pointer;
+}
+.sw-filter-btn.active,
+.sw-filter-btn:hover {
+	background: var(--interactive-accent);
+	color: var(--text-on-accent);
+	border-color: var(--interactive-accent);
+}
+
+.sw-count { color: var(--text-muted); font-size: 0.82em; margin-bottom: 10px; }
+.sw-empty { color: var(--text-muted); font-style: italic; font-size: 0.9em; }
+
+.sw-list {
+	display: flex;
+	flex-direction: column;
+	gap: 7px;
+}
+
+.sw-card {
+	padding: 10px 12px;
+	border-radius: 6px;
+	background: var(--background-secondary);
+	border: 1px solid var(--background-modifier-border);
+	cursor: pointer;
+}
+.sw-card:hover { border-color: var(--interactive-accent); }
+
+.sw-card-top {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 4px;
+}
+
+.sw-card-title {
+	font-weight: 600;
+	color: var(--text-accent);
+	font-size: 0.95em;
+}
+
+.sw-card-meta { font-size: 0.8em; color: var(--text-muted); }
+
+.sw-status {
+	display: inline-block;
+	padding: 1px 7px;
+	border-radius: 10px;
+	font-size: 0.75em;
+	font-weight: 600;
+}
+.sw-status-idea     { background: #5a5a2d33; color: #c9a84c; }
+.sw-status-draft    { background: #2d3d6a33; color: #70a0e0; }
+.sw-status-demo     { background: #2d5a4a33; color: #52b788; }
+.sw-status-finished { background: #2d6a2d33; color: #74c476; }
+
+.sw-btn-primary {
+	background: var(--interactive-accent);
+	color: var(--text-on-accent);
+	border: none;
+	border-radius: 4px;
+	padding: 4px 10px;
+	font-size: 0.85em;
+	cursor: pointer;
+}
+.sw-btn-primary:hover { background: var(--interactive-accent-hover); }
+
+.sw-btn-secondary {
+	background: var(--background-modifier-border);
+	color: var(--text-normal);
+	border: none;
+	border-radius: 4px;
+	padding: 4px 10px;
+	font-size: 0.85em;
+	cursor: pointer;
+}
+.sw-btn-secondary:hover { background: var(--background-modifier-hover); }
+
+.sw-modal .setting-item { border-top: none; }
+.sw-textarea { width: 100%; resize: vertical; min-height: 80px; }
