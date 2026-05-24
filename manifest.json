@@ -1,9 +1,9 @@
 {
   "id": "songwriter",
   "name": "Songwriter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minAppVersion": "1.4.0",
-  "description": "A songwriter's notebook for Obsidian: lyrics, chords, song structure, themes, influences, and recording notes.",
+  "description": "A songwriter's notebook: lyrics, chords, song structure, themes, influences, and recording notes.",
   "author": "wesswart77",
   "authorUrl": "https://github.com/wesswart77",
   "fundingUrl": "https://www.buymeacoffee.com/wesswart77",
